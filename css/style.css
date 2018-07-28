@@ -3,6 +3,7 @@ header {
   margin: auto;
   width: 1000px;
   padding-bottom: 1em;
+  border: 2px solid black;
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
 
 nav {
   float: right;
+  border: 2px dashed black;
 }
 
 .nav-menu li {
@@ -22,6 +24,7 @@ nav {
   float: right;
   padding: 15px;
   text-align: right;
+  border: 2px solid red; 
 }
 
 main {
@@ -29,19 +32,24 @@ main {
   margin: 3em auto;  
   background-color: #dddddd;
   padding: 40px;
+  border: 2px dashed red;
 }
 
 main h2 {
-  float: left;
+  border: 2px solid blue;
 }
 
 .content {
   background-color: #ffffff;
-  width: 960px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  border: 2px dashed blue;
 }
 
 .content img {
   float: left;
+  border: 2px solid orange;
+  width: 200px; 
+  height: 200px;
 } 

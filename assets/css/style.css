@@ -1,0 +1,56 @@
+header {
+  background-color: #ffffff;  
+  margin: auto;
+  width: 1000px;
+  padding-bottom: 1em;
+  border: 2px solid black;
+}
+
+h1 {
+  float: left;
+  background-color: #4aaaa5;
+  color: white;
+  border: 10px solid #4aaaa5;
+  text-align: center;
+}
+
+nav {
+  float: right;
+  border: 2px dashed black;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  float: right;
+  padding: 15px;
+  text-align: right;
+  border: 2px solid red; 
+}
+
+main {
+  clear: both;
+  margin: 3em auto;  
+  background-color: #dddddd;
+  padding: 40px;
+  border: 2px dashed red;
+}
+
+main h2 {
+  float: left;
+  border: 2px solid blue;
+}
+
+.content {
+  background-color: #ffffff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed blue;
+}
+
+.content img {
+  float: left;
+  border: 2px solid orange;
+  width: 200px; 
+  height: 200px;
+} 
