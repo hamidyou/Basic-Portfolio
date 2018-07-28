@@ -1,9 +1,29 @@
+* {
+  color: #777777;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  background-color: #4aaaa5;
+}
+
 header {
   background-color: #ffffff;  
   margin: auto;
   width: 1000px;
   padding-bottom: 1em;
-  border: 2px solid black;
+  border: 2px solid #cccccc;
 }
 
 h1 {
@@ -17,6 +37,11 @@ h1 {
 nav {
   float: right;
   border: 2px dashed black;
+}
+
+li a .active {
+  background-color: #4aaaa5;
+  color: white;
 }
 
 .nav-menu li {
@@ -62,11 +87,12 @@ main h2 {
   clear: both;
 }
 
-main > div > div > p:nth-child(1) {
+div > p:nth-child(1) {
   margin: inherit;
 }
 
 footer {
-  position: fixed;
-  bottom: 0px;
+    text-align: center;
+    background-color: #666666;
+    padding: 20px;
 }
