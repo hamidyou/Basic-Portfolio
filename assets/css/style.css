@@ -32,11 +32,11 @@ main {
   margin: 3em auto;  
   background-color: #dddddd;
   padding: 40px;
-  border: 2px dashed red;
+  border-bottom: 5px solid #4aaaa5;
 }
 
 main h2 {
-  float: left;
+  color: #4aaaa5;
   border: 2px solid blue;
 }
 
@@ -53,4 +53,20 @@ main h2 {
   border: 2px solid orange;
   width: 200px; 
   height: 200px;
+  margin-right: 10px;
 } 
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main > div > div > p:nth-child(1) {
+  margin: inherit;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+}
