@@ -1,6 +1,6 @@
 /* all pages */
 * {
-  color: #2a3443;
+  color: #777777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -8,104 +8,72 @@ h1, h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-a {
-  padding: 15px;
-}
-
 a:link {
   text-decoration: none;
 }
 
 header {
-  background-color: #2a3443;  
+  background-color: #ffffff;  
   margin: auto;
-  width: 100%;
+  width: 1000px;
   padding-bottom: 1em;
-  border-bottom: 2px solid #009efa;
+  border: 2px solid #cccccc;
 }
 
 h1 {
   float: left;
-  background-color: #009efa;
+  background-color: #4aaaa5;
   color: white;
-  border: 10px solid #009efa;
+  border: 10px solid #4aaaa5;
   text-align: center;
 }
 
 nav {
   float: right;
-  /* border: 2px dashed black; */
+  border: 2px dashed black;
 }
 
 .nav-menu li {
   list-style-type: none;
   float: right;
-  margin-top: 15px; 
+  padding: 15px;
   text-align: center;
-  color: #2a3443;
+  border: 2px solid red;
 }
 
-li a:hover {
+.nav-menu li:hover {
   background-color: black;
   color: white;
 }
-
-/* .nav-menu li:hover {
-  background-color: black;
-} */
-
-.nav-menu li:active {
-  background-color: khaki;
-}
-
-
 
 main {
   clear: both;
   margin: 3em auto 0 auto;  
   background-color: #dddddd;
   padding: 40px;
-  max-width: 960px;
-  background-image: url("../images/music-1363069_1280.jpg");
-  background-repeat: round;
 }
 
 main h2 {
-  color: #009efa;
+  color: #4aaaa5;
   padding: 0 0 0 10px;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 }
 
 .content {
-    background-color: #ffffff;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    overflow: auto;
-  /* border: 2px dashed blue; */
-}
-
-.center {
   background-color: #ffffff;
-  max-width: 72%;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-}
-
-.row {
-  width: 100%;
-  margin: auto;
+  padding: 10px;
+  border: 2px dashed blue;
 }
 
 footer {
-    clear: both;
     text-align: center;
-    background-color: #2a3443;
+    background-color: #666666;
     position: sticky;
     bottom: 0;
-    border-top: 5px solid #009efa;
+    border-top: 5px solid #4aaaa5;
     padding-bottom: 3px;
 }
 
@@ -127,21 +95,6 @@ div > p:nth-child(1) {
   margin: 0 10px;
 } 
 
-/* Portfolio Page */
-
-.column {
-  width: 90%;
-  padding: 0 10%;
-}
-.column img {
-  padding: 5px;
-  margin: 5px;
-}
-
-#portHeading {
-  text-align: center;
-}
-
 /* Contact Page */
 
 input[type=text], textarea {
@@ -152,7 +105,11 @@ input[type=text], textarea {
 }
 
 input[type=text]:hover, textarea:hover {
-  border: 1px solid #009efa;
+  border: 1px solid #4aaaa5;
+}
+
+textarea {
+  padding: 5%;
 }
 
 input[type=submit] {
